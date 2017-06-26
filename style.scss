@@ -110,6 +110,20 @@ section {
     @include display-flex;
     justify-content: space-between;
     @include flex-direction(column);    // スキルボックスを縦に並べる
+    p{
+    padding: 10px 20px;
+    text-align: left;
+    }
+  }
+  .point-box {
+    @include flex(1);
+    margin: 10px;           
+    padding: 0;
+    background-color: $baseColor;
+    @include border-radius(4px);
+    @include box-sizing(border-box);
+    border: 1px solid $keyColor;
+    text-align: center;
   }
   h1 {
     color: $keyColor;
@@ -123,26 +137,7 @@ section {
     font-weight: bold;
     text-align: center;
     background-color: $keyColor;
-    margin: 0 0 2.0rem 0;
-  }
-  h5 {
-    color: $keyColor;
-    margin-bottom: 60px;
-  }
-  .point-box {
-    @include flex(1);
-    margin: 10px;                     // 上下にマージン
-    padding: 0;
-    background-color: $baseColor;
-    @include border-radius(4px);
-    @include box-sizing(border-box);
-    border: 1px solid $keyColor;
-  }
-  h5 {
-    color: $keyColor;
-    margin:10px 20px 10px 20px;
-    font-size: 1.4rem;
-    text-align: center;
+    margin: 0 0 1.5rem 0;
   }
 }
 

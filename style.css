@@ -83,21 +83,9 @@ section {
     justify-content: space-between;
     -webkit-flex-direction: column;
     flex-direction: column; }
-  #point h1 {
-    color: #696969;
-    font-size: 3.0rem;
-    margin-bottom: 20px; }
-  #point h3 {
-    color: #ffffff;
-    margin-bottom: 10px;
-    font-size: 2.4rem;
-    font-weight: bold;
-    text-align: center;
-    background-color: #696969;
-    margin: 0 0 2.0rem 0; }
-  #point h5 {
-    color: #696969;
-    margin-bottom: 60px; }
+    #point .container p {
+      padding: 10px 20px;
+      text-align: left; }
   #point .point-box {
     -webkit-flex: 1;
     flex: 1;
@@ -110,12 +98,20 @@ section {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #696969; }
-  #point h5 {
-    color: #696969;
-    margin: 10px 20px 10px 20px;
-    font-size: 1.4rem;
+    border: 1px solid #696969;
     text-align: center; }
+  #point h1 {
+    color: #696969;
+    font-size: 3.0rem;
+    margin-bottom: 20px; }
+  #point h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #696969;
+    margin: 0 0 1.5rem 0; }
 
 @media (min-width: 769px) {
   #point .container {
