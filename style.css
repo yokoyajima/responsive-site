@@ -54,10 +54,17 @@ a {
 ------------------------------------------------------------*/
 header .box {
   background-image: url(images/eye.jpg);
-  height: 500px;
+  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center center; }
+@media (min-width: 769px) {
+  header .box {
+    background-image: url(images/eye.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center; } }
 
 /* Contents
 ------------------------------------------------------------*/
